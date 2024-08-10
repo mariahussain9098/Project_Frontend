@@ -1,30 +1,56 @@
-# React + TypeScript + Vite
+# Student Feedback Portal
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Introduction
+The **Student Feedback Portal** is a web application built with the MERN stack (MongoDB, Express, React, Node.js) that allows students to register, log in, and submit feedback on their courses. The admin can log in to view all feedback in an organized manner, represented through charts and graphs for easy analysis.
 
-Currently, two official plugins are available:
+## Features
+- **Student Role:**
+  - Register and log in to the application.
+  - Submit feedback for their courses.
+  - View feedback submission confirmation.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **Admin Role:**
+  - Log in with admin credentials.
+  - View all student feedback in a comprehensive dashboard.
+  - Analyze feedback using charts and graphs.
 
-## Expanding the ESLint configuration
+## Technologies Used
+- **Frontend:**
+  technologies used :React + TypeScript + Vite
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+- **Backend:**
+  - Node.js
+  - Express
+  - MongoDB for the database
+  - Mongoose for data modeling
+  - bcryptjs for password hashing
+  - jsonwebtoken for authentication
 
-- Configure the top-level `parserOptions` property like this:
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+## Team Members
+
+This project was collaboratively developed by:
+- **Member 1:** [Maria](https://github.com/mariahussain9098) 
+- **Member 2:** [Afaf Afridi](https://github.com/AfafAfridi) 
+- **Member 3:** [Nimra Shahid](https://github.com/nimrashahid157)
+
+Group name:
+
+Code Crafters
+
+Members: 
+
+Maira Hussain
+Afaf Afridi
+Nimra Shahid
+
+Teacher name:
+
+Iqra Naz
+
+Batch 10
+
+No seperate git hub repositories were made as we all worked together on the project.
+
+
